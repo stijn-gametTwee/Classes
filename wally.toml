@@ -1,18 +1,19 @@
 [package]
 name = "stijn-gamettwee/classes"
-description = "Create classes based on C++"
+description = "A professional class framework for Roblox Luau inspired by C++ architecture. Supports constructors, inheritance, extensible services, and clean OOP workflows for large-scale Roblox projects."
+version = "0.0.1"
 license = "Apache-2.0"
 authors = ["stijn_gamet"]
-version = "0.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
-repository = "https://github.com/evaera/roblox-lua-promise"
-homepage = "https://madebystijn.be/"
-realm = "shared"
-exclude = ["aftman.toml", ".gitignore"]
+repository = "https://github.com/stijn-gametTwee/Classes"
+homepage = "https://classes.github.io/"
+exclude = [
+    "docs",
+    ".github",
+    ".vscode",
+    "mkdocs.yml"
+]
 private = true
+realm = "shared"
 
 [dependencies]
-
-[server-dependencies]
-
-[dev-dependencies]
