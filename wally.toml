@@ -1,0 +1,18 @@
+[package]
+name = "stijn-gamettwee/classes"
+description = "Create classes based on C++"
+license = "Apache-2.0"
+authors = ["stijn_gamet"]
+version = "0.0.1"
+registry = "https://github.com/UpliftGames/wally-index"
+repository = "https://github.com/evaera/roblox-lua-promise"
+homepage = "https://madebystijn.be/"
+realm = "shared"
+exclude = ["aftman.toml", ".gitignore"]
+private = true
+
+[dependencies]
+
+[server-dependencies]
+
+[dev-dependencies]
