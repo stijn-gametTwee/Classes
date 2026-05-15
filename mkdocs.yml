@@ -1,0 +1,57 @@
+site_name: Classes
+site_url: https://stijn-gamettwee.github.io/Classes/
+site_description: C++-style OOP package for Roblox Luau
+site_author: stijn_gamet
+
+repo_name: stijn-gametTwee/Classes
+repo_url: https://github.com/stijn-gametTwee/Classes
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.tracking
+    - navigation.indexes
+    - toc.integrate    
+    - toc.follow
+    - content.code.copy
+    - search.highlight
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/stijn-gametTwee
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/stijn_p_
+
+copyright: Copyright &copy; 2026 stijn_gamet
+
+nav:
+  - Home: index.md

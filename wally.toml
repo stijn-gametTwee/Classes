@@ -6,7 +6,7 @@ license = "Apache-2.0"
 authors = ["stijn_gamet"]
 registry = "https://github.com/UpliftGames/wally-index"
 repository = "https://github.com/stijn-gametTwee/Classes"
-homepage = "https://classes.github.io/"
+homepage = "https://stijn-gamettwee.github.io/Classes/"
 exclude = [
     "docs",
     ".github",
